@@ -30,4 +30,3 @@ st.markdown(
     """
 )
 
-st.caption("Built for demonstration purposes. Data must be preprocessed and a model trained before forecasts are available.")
