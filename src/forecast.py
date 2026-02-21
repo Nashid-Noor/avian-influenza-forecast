@@ -51,7 +51,7 @@ def compute_risk_level(
         (risk_level, pct_change) — e.g. ("High", 0.75)
     """
     if recent_mean <= 0:
-        pct = float("inf") if forecast_mean > 0 else 0.0
+        pct = 1.0 if forecast_mean > 0 else 0.0
     else:
         pct = (forecast_mean - recent_mean) / recent_mean
 
