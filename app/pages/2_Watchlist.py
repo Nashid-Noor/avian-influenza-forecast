@@ -78,7 +78,7 @@ if st.session_state.starred:
             })
         except Exception:
             rows.append({"Country": c, "Risk": "—", "Change": "—", "Forecast (mean)": "—"})
-    st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+    st.dataframe(pd.DataFrame(rows), hide_index=True)
 else:
     st.info("No countries starred yet. Use the selector above to add some.")
 
