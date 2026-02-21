@@ -1,0 +1,38 @@
+{
+  "model_name": "lgbm_outbreak_forecaster",
+  "version": "1.0.0",
+  "train_end_date": "2017-05-22",
+  "data_end_date": "2017-08-14",
+  "n_train": 9779,
+  "n_val": 924,
+  "feature_list": [
+    "lag_1",
+    "lag_2",
+    "lag_4",
+    "lag_8",
+    "lag_12",
+    "roll_mean_4",
+    "roll_std_4",
+    "roll_mean_8",
+    "roll_std_8",
+    "roll_mean_12",
+    "roll_std_12",
+    "woy_sin",
+    "woy_cos"
+  ],
+  "params": {
+    "objective": "regression",
+    "metric": "mae",
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "min_child_samples": 10,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "verbose": -1,
+    "seed": 42,
+    "n_estimators": 300
+  },
+  "best_iteration": 58,
+  "residual_std": 0.5528039629817304,
+  "data_source": "unknown"
+}
