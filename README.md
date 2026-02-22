@@ -1,5 +1,5 @@
 
-# 🐦 Avian Influenza Outbreak Forecasting & Risk Intelligence
+#  Avian Influenza Outbreak Forecasting & Risk Intelligence
 
 **Live Project:** (https://huggingface.co/spaces/nashid16/avian-influenza-forecast)
 
@@ -7,7 +7,7 @@ An end-to-end Machine Learning pipeline and interactive risk dashboard designed 
 
 ---
 
-## ⚡ Architecture & Methodology
+##  Architecture & Methodology
 
 1. **Robust Data Ingestion & Preprocessing**
    * Parses raw outbreak event records (e.g., from FAO EMPRES-i or Kaggle).
@@ -29,7 +29,7 @@ An end-to-end Machine Learning pipeline and interactive risk dashboard designed 
 
 ---
 
-## 🚀 Local Quick Setup
+##  Local Quick Setup
 
 1. **Clone the repository and install dependencies:**
    ```bash
